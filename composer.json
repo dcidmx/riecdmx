@@ -1,0 +1,30 @@
+{
+		"minimum-stability": "dev",
+		"repositories": [
+			{
+				"type": "vcs",
+				"url": "https://github.com/visualmx/mail.git"
+			},
+			{
+				"type": "vcs",
+				"url": "https://github.com/visualmx/PDF_MC_Table.git"
+			}
+		],
+		"require": {
+			  "pusher/pusher-php-server": "^3",
+			  "visualmx/mail": "^1",
+				"visualmx/PDF_MC_Table": "^1",
+			  "illuminate/database": "*",
+			  "php-console/php-console": "^3.1",
+			  "PHPOffice/PHPExcel": "1.8.1",
+			  "mobiledetect/mobiledetectlib": "^2.8",
+			  "setasign/fpdf": "1.8.1",
+				"setasign/fpdi": "1.6.1",
+				"livecontrol/eloquent-datatable": "dev-master"
+		},
+		"autoload": {
+			"psr-4": {
+				"Framedev\\": "Framedev"
+			}
+		}
+}
